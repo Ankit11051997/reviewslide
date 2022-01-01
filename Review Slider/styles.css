@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+ body{
+     font-family: 'Inter' ,sans-serif;
+     min-height: 100vh;
+     display: grid;
+     place-items: center;
+     padding: 2rem;
+     background-color: rgb(219, 242, 244);
+    background-image: url('images/pattern\ copy.svg');
+    }
+.review-container{
+    background-color: white;
+    position: relative;
+    border-radius: 5rem;
+    text-align: center;
+    
+}
+.review-header {
+display: grid;
+gap: 2rem;
+margin-bottom: 2rem;
+padding: 2rem 2rem 0rem; 
+} 
+.review-content{
+    max-width: 750px;
+    position: relative;
+} 
+.review-header h2{
+font-size: 2.8rem;
+}
+.arrow{
+    cursor: pointer;
+  
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  
+  transition: background-color 0.6s ease;
+}
+img{
+    
+    border-radius: 50%;
+}
+.review-name{
+    font-size: 25px;
+padding: 5px;
+}
+.review-location
+{
+font-size: 22px;
+padding: 10px;
+}
+.container{
+    display :flex;
+}
+.col{
+    
+   
+    display: flex;
+    
+}
+.review-container{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+}
